@@ -27,8 +27,6 @@ SET time_zone = "+00:00";
 --
 -- Структура таблицы `b_user_group`
 --
-
-DROP TABLE IF EXISTS `b_user_group`;
 CREATE TABLE IF NOT EXISTS `b_user_group` (
   `USER_ID` int(18) NOT NULL,
   `GROUP_ID` int(18) NOT NULL,
